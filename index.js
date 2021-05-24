@@ -15,33 +15,38 @@ console.log(Felipe)
 //Na propriedade amigos, adicione ao menos 4 itens.
 let Cadastro =[{
     name : 'Rayanne',
-    age : '(45) 56568-6451',
-    friend : 'Eva', 
+    tel : '(45) 56568-6451',
+    friend : ['Eva','Rapha','Matheus','Lucas','João'],
+    age : 26
 },
 {
     name : 'Helena',
-    age : '(22) 12356-6151',
-    friend : 'Jade', 
+    tel : '(22) 12356-6151',
+    friend : ['Jade','Rafael','Pâmela','Jennyfer','Mariana'],
+    age : 17
 },
 {
     name : 'Lola',
-    age : '(87) 95151-4954',
-    friend : 'Patricia', 
+    tel : '(87) 95151-4954',
+    friend : ['Patricia','Ana','Pedro','Ralp','Luan'],
+    age : 36
 },
 {
     name : 'Felipe',
-    age : '(41) 59414-6541',
-    friend : 'Andreia', 
+    tel : '(41) 59414-6541',
+    friend : ['Andreia','Marcos','Alessandra','Stefany','Mayara'],
+    age : 14
 },
 {
     name : 'Theo',
-    age : '(26) 16589-9845',
-    friend : 'Daniel', 
+    tel : '(26) 16589-9845',
+    friend : ['Daniel','Igor','Valeria','Leandro','Yone'],
+    age : 19
 },
 ]
 // Mostre no console o nome de um amigo de cada lista.
-console.log(Cadastro[2].friend)
-console.log(Cadastro[4].friend)
-console.log(Cadastro[3].friend)
-console.log(Cadastro[0].friend)
-console.log(Cadastro[1].friend)
+console.log(Cadastro[2].friend [5])
+console.log(Cadastro[4].friend [3])
+console.log(Cadastro[3].friend [2])
+console.log(Cadastro[0].friend [1])
+console.log(Cadastro[1].friend [4])
